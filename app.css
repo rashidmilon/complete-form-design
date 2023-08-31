@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 700px;
+  min-height: 300px;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem auto;
+}
+
+.heading {
+  width: 100%;
+  padding: 1rem;
+  background-color: #333;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.heading h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.form-section {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.inline-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+.form-group > label {
+  display: block;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-style: normal;
+}
+
+.form-group > input,
+textarea,
+select {
+  width: 100%;
+  outline: none;
+  border: 1px solid #ddd;
+  color: #333;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  margin: top 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+
+.radio-inline-group {
+  display: flex;
+  color: #333;
+  font-size: 0.8rem;
+}
+
+.radio-inline {
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+  gap: 0.5rem;
+}
+
+.bio textarea {
+  columns: 120px;
+  resize: none;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  outline: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn :hover {
+  cursor: pointer;
+}
+
+/* btn start */
+.btn-reset {
+  color: red;
+  border: 2px solid red;
+  border-radius: 0.25rem;
+}
+
+.btn-submit {
+  color: white;
+  border: 2px solid #333;
+  background-color: #333;
+  border-radius: 0.25rem;
+}
+/* form end */
